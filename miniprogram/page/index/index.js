@@ -7,7 +7,7 @@ Page({
      */
     data: {
         loading: true,
-        disabled: true
+        disabled: true,
     },
 
     /**

@@ -15,7 +15,7 @@ exports.main = async (event, context) => {
         "cansee": event.cansee, //是否可见
         "eventname": event.eventname,   //活动名称
         "eventtype": event.eventtype,   //活动类型
-        "eventintroduction": event.eventintroduction,   //活动介绍
+        "eventintroduction": event.eventintroduction,   //活动简介
         "eventcontent": event.eventcontent, //活动内容
         "eventrequest": event.eventrequest, //活动需求
         "eventplace": event.eventplace, //活动地点
@@ -35,7 +35,7 @@ exports.main = async (event, context) => {
         "singleevent": true,    //是否为单个活动
         "qrcode": "",   //二维码
         "pic": [],  //图片
-        "eventid": [],  //组id
+        "eventid": [],  //组信息
     }).then(res => {
         console.log(event.eventname, "创建成功：", res)
         return res

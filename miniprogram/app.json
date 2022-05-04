@@ -4,7 +4,24 @@
         "page/component/index",
         "page/API/index",
         "page/cloud/index",
-        "page/extend/index"
+        "page/extend/index",
+
+        "pages/createevent/index",
+        "pages/creategroup/index",
+        "pages/editevent/index",
+        "pages/editgroup/index",
+
+        "pages/getlists/index",
+        "pages/groupdetails/index",
+        "pages/eventdetails/index",
+        "pages/sign/index",
+        "pages/participantdetail/index",
+
+        "pages/mine/index",
+        "pages/editprofile/index"
+
+
+
     ],
     "subpackages": [{
             "root": "packageComponent",
